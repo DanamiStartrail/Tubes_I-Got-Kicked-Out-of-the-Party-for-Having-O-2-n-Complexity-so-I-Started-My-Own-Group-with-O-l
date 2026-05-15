@@ -1,8 +1,8 @@
 {
-  "name": "GreedyRammer",
+  "name": "PredictiveBot",
   "version": "1.0",
   "authors": ["Mandanta"],
-  "description": "Menabrak musuh secara agresif",
+  "description": "Bot agresif dengan tembakan prediksi",
   "countryCode": "ID",
   "gameTypes": ["melee", "1v1"],
   "platform": ".NET",
