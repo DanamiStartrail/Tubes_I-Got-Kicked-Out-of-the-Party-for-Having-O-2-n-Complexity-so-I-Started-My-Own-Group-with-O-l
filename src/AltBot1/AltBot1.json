@@ -1,8 +1,8 @@
 {
-  "name": "GreedySniper",
+  "name": "GerakAcakBot",
   "version": "1.0",
   "authors": ["Mandanta"],
-  "description": "Menjaga jarak maksimal dan menembak jitu",
+  "description": "Bot dengan pergerakan acak dan tembakan cepat",
   "countryCode": "ID",
   "gameTypes": ["melee", "1v1"],
   "platform": ".NET",

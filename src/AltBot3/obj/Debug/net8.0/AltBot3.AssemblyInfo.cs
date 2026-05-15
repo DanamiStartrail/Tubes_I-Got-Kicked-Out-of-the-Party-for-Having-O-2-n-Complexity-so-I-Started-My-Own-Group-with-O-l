@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AltBot3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c48cf3a8c54bae20ed52007b23551a347824877b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6bb887073fcbe4da538e2cd1eb8660a311734bc")]
 [assembly: System.Reflection.AssemblyProductAttribute("AltBot3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AltBot3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

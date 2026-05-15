@@ -1,41 +1,58 @@
+using System;
 using Robocode.TankRoyale.BotApi;
 using Robocode.TankRoyale.BotApi.Events;
 
 namespace TubesStima
 {
-    public class GreedyRammer : Bot
+    public class PredictiveBot : Bot
     {
-        public static void Main(string[] args) => new GreedyRammer().Start();
-        public GreedyRammer() : base(BotInfo.FromFile("AltBot2.json")) { }
+        public static void Main(string[] args) => new PredictiveBot().Start();
+        public PredictiveBot() : base(BotInfo.FromFile("AltBot2.json")) { }
 
         public override void Run()
         {
+            AdjustGunForBodyTurn = true;
+            AdjustRadarForGunTurn = true;
+            
             while (IsRunning) TurnRadarRight(360);
         }
 
         public override void OnScannedBot(ScannedBotEvent e)
         {
-            double dist = DistanceTo(e.X, e.Y);
-            double dir = DirectionTo(e.X, e.Y);
+            double arahMusuh = DirectionTo(e.X, e.Y);
 
-            // Putar badan tank menghadap musuh
-            double bodyTurn = dir - Direction;
-            while (bodyTurn > 180) bodyTurn -= 360;
-            while (bodyTurn < -180) bodyTurn += 360;
-            TurnRight(bodyTurn);
+            // 1. Radar Lock
+            double putarRadar = arahMusuh - RadarDirection;
+            while (putarRadar > 180) putarRadar -= 360;
+            while (putarRadar < -180) putarRadar += 360;
+            SetTurnRadarRight(putarRadar * 1.2);
 
-            // Putar meriam ke arah musuh
-            double gunTurn = dir - GunDirection;
-            while (gunTurn > 180) gunTurn -= 360;
-            while (gunTurn < -180) gunTurn += 360;
-            TurnGunRight(gunTurn);
+            // 2. Gerakan Terus Mendekati Musuh
+            double putarBadan = arahMusuh - Direction;
+            while (putarBadan > 180) putarBadan -= 360;
+            while (putarBadan < -180) putarBadan += 360;
+            SetTurnRight(putarBadan);
+            SetForward(DistanceTo(e.X, e.Y) - 100); // Sisakan jarak 100 pixel
 
-            // Logika Greedy: Tabrak!
-            Forward(dist);
+            // 3. Tembakan Prediktif
+            double dayaTembak = 3.0; // Daya maksimal
+            double kecepatanPeluru = 20 - (3 * dayaTembak);
+            double waktuTempuh = DistanceTo(e.X, e.Y) / kecepatanPeluru;
+            
+            double arahRadian = e.Direction * (Math.PI / 180.0);
+            double targetX = e.X + (Math.Sin(arahRadian) * e.Speed * waktuTempuh);
+            double targetY = e.Y + (Math.Cos(arahRadian) * e.Speed * waktuTempuh);
 
-            // Tembak daya maksimal jika sudah dekat
-            if (dist < 100 && GunHeat == 0) Fire(3.0);
-            Rescan();
+            double arahTembak = DirectionTo(targetX, targetY);
+            double putarMeriam = arahTembak - GunDirection;
+            while (putarMeriam > 180) putarMeriam -= 360;
+            while (putarMeriam < -180) putarMeriam += 360;
+            
+            SetTurnGunRight(putarMeriam);
+
+            if (GunHeat == 0) SetFire(dayaTembak);
+
+            Go(); // Eksekusi
         }
     }
 }
