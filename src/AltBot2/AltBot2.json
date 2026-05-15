@@ -1,0 +1,10 @@
+{
+  "name": "GreedyRammer",
+  "version": "1.0",
+  "authors": ["Mandanta"],
+  "description": "Menabrak musuh secara agresif",
+  "countryCode": "ID",
+  "gameTypes": ["melee", "1v1"],
+  "platform": ".NET",
+  "programmingLang": "C# 10.0"
+}

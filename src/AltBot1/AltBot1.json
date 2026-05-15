@@ -1,0 +1,10 @@
+{
+  "name": "GreedySniper",
+  "version": "1.0",
+  "authors": ["Mandanta"],
+  "description": "Menjaga jarak maksimal dan menembak jitu",
+  "countryCode": "ID",
+  "gameTypes": ["melee", "1v1"],
+  "platform": ".NET",
+  "programmingLang": "C# 10.0"
+}

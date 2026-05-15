@@ -1,0 +1,10 @@
+{
+  "name": "GreedyDodger",
+  "version": "1.0",
+  "authors": ["Mandanta"],
+  "description": "Menghindar dengan bergerak tegak lurus",
+  "countryCode": "ID",
+  "gameTypes": ["melee", "1v1"],
+  "platform": ".NET",
+  "programmingLang": "C# 10.0"
+}

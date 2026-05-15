@@ -1,0 +1,10 @@
+{
+  "name": "GreedyMainBot",
+  "version": "1.0",
+  "authors": ["Mandanta"],
+  "description": "Bot utama algoritma greedy",
+  "countryCode": "ID",
+  "gameTypes": ["melee", "1v1"],
+  "platform": ".NET",
+  "programmingLang": "C# 10.0"
+}

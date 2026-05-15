@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/danta/Project/Tubes-Stima/src/AltBot3/AltBot3.csproj": {}
+  },
+  "projects": {
+    "/home/danta/Project/Tubes-Stima/src/AltBot3/AltBot3.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/danta/Project/Tubes-Stima/src/AltBot3/AltBot3.csproj",
+        "projectName": "AltBot3",
+        "projectPath": "/home/danta/Project/Tubes-Stima/src/AltBot3/AltBot3.csproj",
+        "packagesPath": "/home/danta/.nuget/packages/",
+        "outputPath": "/home/danta/Project/Tubes-Stima/src/AltBot3/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/danta/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Robocode.TankRoyale.BotApi": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/danta/.dotnet/sdk/8.0.421/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
