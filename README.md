@@ -29,6 +29,7 @@ Berikut adalah langkah-langkah untuk menjalankan bot di lingkungan lokal Anda:
     Pastikan bot dapat melakukan *handshake* dengan server. Jika server menggunakan kunci rahasia, atur variabel *environment*:
     * *Windows:* `set ROBOCODE_SECRET=rahasia`
     * *Linux/Mac:* `export ROBOCODE_SECRET=rahasia`
+    
     **Atau gunakan perintah ini untuk memasukkan kunci rahasia:
       ```bash
       export SERVER_SECRET="qJXYf4xcmXTPh6ywAV/plzfGrb7sDM38dCMDuu2hkH"
