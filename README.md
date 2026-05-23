@@ -46,7 +46,7 @@ Berikut adalah langkah-langkah untuk menjalankan bot di lingkungan lokal Anda:
 
 ## iv. Author (Identitas Pembuat)
 
-**Kelompok:** I Got Kicked Out of the Party for Having O(2^n) Complexity, so I Started My Own Group with O(log n).pdf
+**Kelompok:** I Got Kicked Out of the Party for Having O(2^n) Complexity, so I Started My Own Group with O(log n)
 * *Mandanta Guru Singa* - *(124140147)*
 * *Rachman Hady* - *(124140129)*
 * *Gathan Mahendra* - *(124140201)*
