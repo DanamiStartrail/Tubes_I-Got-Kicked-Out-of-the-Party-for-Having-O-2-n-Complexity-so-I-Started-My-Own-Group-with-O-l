@@ -1,9 +1,3 @@
-/home/danta/Project/Tubes-Stima/src/MainBot/obj/Debug/net8.0/MainBot.csproj.AssemblyReference.cache
-/home/danta/Project/Tubes-Stima/src/MainBot/obj/Debug/net8.0/MainBot.GeneratedMSBuildEditorConfig.editorconfig
-/home/danta/Project/Tubes-Stima/src/MainBot/obj/Debug/net8.0/MainBot.AssemblyInfoInputs.cache
-/home/danta/Project/Tubes-Stima/src/MainBot/obj/Debug/net8.0/MainBot.AssemblyInfo.cs
-/home/danta/Project/Tubes-Stima/src/MainBot/obj/Debug/net8.0/MainBot.csproj.CoreCompileInputs.cache
-/home/danta/Project/Tubes-Stima/src/MainBot/obj/Debug/net8.0/MainBot.sourcelink.json
 /home/danta/Project/Tubes-Stima/src/MainBot/bin/Debug/net8.0/MainBot
 /home/danta/Project/Tubes-Stima/src/MainBot/bin/Debug/net8.0/MainBot.deps.json
 /home/danta/Project/Tubes-Stima/src/MainBot/bin/Debug/net8.0/MainBot.runtimeconfig.json
@@ -25,6 +19,12 @@
 /home/danta/Project/Tubes-Stima/src/MainBot/bin/Debug/net8.0/System.Text.Encodings.Web.dll
 /home/danta/Project/Tubes-Stima/src/MainBot/bin/Debug/net8.0/System.Text.Json.dll
 /home/danta/Project/Tubes-Stima/src/MainBot/bin/Debug/net8.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll
+/home/danta/Project/Tubes-Stima/src/MainBot/obj/Debug/net8.0/MainBot.csproj.AssemblyReference.cache
+/home/danta/Project/Tubes-Stima/src/MainBot/obj/Debug/net8.0/MainBot.GeneratedMSBuildEditorConfig.editorconfig
+/home/danta/Project/Tubes-Stima/src/MainBot/obj/Debug/net8.0/MainBot.AssemblyInfoInputs.cache
+/home/danta/Project/Tubes-Stima/src/MainBot/obj/Debug/net8.0/MainBot.AssemblyInfo.cs
+/home/danta/Project/Tubes-Stima/src/MainBot/obj/Debug/net8.0/MainBot.csproj.CoreCompileInputs.cache
+/home/danta/Project/Tubes-Stima/src/MainBot/obj/Debug/net8.0/MainBot.sourcelink.json
 /home/danta/Project/Tubes-Stima/src/MainBot/obj/Debug/net8.0/MainBot.csproj.Up2Date
 /home/danta/Project/Tubes-Stima/src/MainBot/obj/Debug/net8.0/MainBot.dll
 /home/danta/Project/Tubes-Stima/src/MainBot/obj/Debug/net8.0/refint/MainBot.dll

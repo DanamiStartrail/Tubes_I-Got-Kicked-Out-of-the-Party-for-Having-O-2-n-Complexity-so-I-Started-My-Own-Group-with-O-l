@@ -1,8 +1,3 @@
-/home/danta/Project/Tubes-Stima/src/AltBot2/obj/Debug/net8.0/AltBot2.GeneratedMSBuildEditorConfig.editorconfig
-/home/danta/Project/Tubes-Stima/src/AltBot2/obj/Debug/net8.0/AltBot2.AssemblyInfoInputs.cache
-/home/danta/Project/Tubes-Stima/src/AltBot2/obj/Debug/net8.0/AltBot2.AssemblyInfo.cs
-/home/danta/Project/Tubes-Stima/src/AltBot2/obj/Debug/net8.0/AltBot2.csproj.CoreCompileInputs.cache
-/home/danta/Project/Tubes-Stima/src/AltBot2/obj/Debug/net8.0/AltBot2.sourcelink.json
 /home/danta/Project/Tubes-Stima/src/AltBot2/bin/Debug/net8.0/AltBot2
 /home/danta/Project/Tubes-Stima/src/AltBot2/bin/Debug/net8.0/AltBot2.deps.json
 /home/danta/Project/Tubes-Stima/src/AltBot2/bin/Debug/net8.0/AltBot2.runtimeconfig.json
@@ -25,6 +20,11 @@
 /home/danta/Project/Tubes-Stima/src/AltBot2/bin/Debug/net8.0/System.Text.Json.dll
 /home/danta/Project/Tubes-Stima/src/AltBot2/bin/Debug/net8.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll
 /home/danta/Project/Tubes-Stima/src/AltBot2/obj/Debug/net8.0/AltBot2.csproj.AssemblyReference.cache
+/home/danta/Project/Tubes-Stima/src/AltBot2/obj/Debug/net8.0/AltBot2.GeneratedMSBuildEditorConfig.editorconfig
+/home/danta/Project/Tubes-Stima/src/AltBot2/obj/Debug/net8.0/AltBot2.AssemblyInfoInputs.cache
+/home/danta/Project/Tubes-Stima/src/AltBot2/obj/Debug/net8.0/AltBot2.AssemblyInfo.cs
+/home/danta/Project/Tubes-Stima/src/AltBot2/obj/Debug/net8.0/AltBot2.csproj.CoreCompileInputs.cache
+/home/danta/Project/Tubes-Stima/src/AltBot2/obj/Debug/net8.0/AltBot2.sourcelink.json
 /home/danta/Project/Tubes-Stima/src/AltBot2/obj/Debug/net8.0/AltBot2.csproj.Up2Date
 /home/danta/Project/Tubes-Stima/src/AltBot2/obj/Debug/net8.0/AltBot2.dll
 /home/danta/Project/Tubes-Stima/src/AltBot2/obj/Debug/net8.0/refint/AltBot2.dll
